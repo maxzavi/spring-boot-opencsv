@@ -19,6 +19,14 @@ public class DemotransactionbdApplication implements CommandLineRunner {
     //Logger
 	private static Logger LOG = LoggerFactory.getLogger(DemoApplication.class);
 ```
+Settings in **application.properties** file:
+
+```properties
+#Logger
+logging.level.root=INFO
+logging.level.pe=DEBUG
+logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n
+```
 
 ## Open CSV
 
